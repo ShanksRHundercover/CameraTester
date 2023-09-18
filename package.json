@@ -1,0 +1,26 @@
+{
+  "name": "camera-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --https",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "peers": "install-peers"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/plugin-transform-react-jsx-development": "^7.22.5",
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "babel-plugin-transform-hook-names": "^1.0.2",
+    "preact": "^10.16.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "@types/babel__core": "^7",
+    "install-peers": "^1.0.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
